@@ -26,10 +26,12 @@ class ReArrangeZeroOne{
                 arr[i++]=0;
                 count1--;
             }
+        //sort all ones
             while(count2>0){
                 arr[i++]=1;
                 count2--;
             }
+        //sort all twos
             while(count3>0){
                 arr[i++]=2;
                 count3--;
